@@ -1,0 +1,54 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef explo_dust_01_up_slow {
+   ShapeType Cone
+   ConeAngle 360 0 90
+   MaxNum 4000
+   BirthRate 100
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "CarePackage/Particles/material/carepackage_smoke_red1.emat"
+   SizeMultiplier 11
+   SizeRND 6
+   RandomRotDir 1
+   RotMultiplier 20
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   Velocity 2
+   VelocityRND 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 1
+   RandomFrame 1
+   LifeTime 20
+   LifeTimeRND 0
+   Color {
+    0 0.7373 0.6588 0.4588 1 0.8324 0.7616 0.3483
+   }
+   Alpha {
+    0 0.20168 0.05331 0.31933 0.29963 0.37815 0.59926 0.41176 0.84559 0.47899 1 0.29412
+   }
+   RotationSpeed {
+    0 1 1 0.1962
+   }
+   Size {
+    0 0.08403 0.24081 0.36134 0.51471 0.4958 0.80515 0.63025 1 0.64706
+   }
+   EffectTime 40
+   Repeat 1
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+ }
+}
